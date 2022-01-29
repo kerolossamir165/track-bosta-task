@@ -13,9 +13,9 @@ function Nav() {
   const currentDir = i18n.language === "ar" ? "rtl" : "ltr";
   let [openForm, setOpenForm] = useState(true);
 
-  const oldRoute = history.location.pathname.includes(i18n.language)
-    ? history.location.pathname.split("/").splice(2).join("/")
-    : history.location.pathname;
+  const oldRoute = window.location.pathname.includes(i18n.language)
+    ? window.location.pathname.split("/").splice(2).join("/")
+    : window.location.pathname;
 
   useEffect(() => {
     document.documentElement.dir = currentDir;
@@ -77,6 +77,7 @@ function Nav() {
                 to="#"
                 onClick={() => {
                   i18n.changeLanguage(changedToLang);
+                  console.log(window.location);
                   history.push(`/${changedToLang}/${oldRoute}`);
                 }}
               >

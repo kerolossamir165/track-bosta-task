@@ -71,6 +71,7 @@ function TrackPage(props) {
             <Front
               deleverPercent={status[data?.CurrentStatus?.state]?.width}
               color={status[data?.CurrentStatus?.state]?.color}
+              lang={i18n.language}
             ></Front>
 
             <div>
@@ -237,7 +238,7 @@ let Front = styled.div`
   background-color: ${(props) => props.color || "#e1dfdf"};
   position: absolute;
   top: 0;
-  right: 0;
+  ${(props) => (props.lang === "en" ? "left" : "right")}: 0;
 `;
 
 let BoxIcon = styled.div`
