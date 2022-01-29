@@ -77,8 +77,15 @@ function Nav() {
                 to="#"
                 onClick={() => {
                   i18n.changeLanguage(changedToLang);
-                  console.log(window.location);
-                  history.push(`/${changedToLang}/${oldRoute}`);
+                  console.log(
+                    window.location.pathname.split("/").splice(2).join("/")
+                  );
+                  history.push(
+                    `/${changedToLang}/${window.location.pathname
+                      .split("/")
+                      .splice(2)
+                      .join("/")}`
+                  );
                 }}
               >
                 {" "}
