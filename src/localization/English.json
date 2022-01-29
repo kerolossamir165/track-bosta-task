@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "Home": "Home",
+    "Pricing": "Pricing",
+    "Contact": "Contact Sales",
+    "Track": "Tracking Shipment",
+    "SignIn": "Sign In"
+  },
+  "ship": {
+    "trackShip": "Track your shipment",
+    "textNo": "Enter your tracking No.",
+    "noShip": "Tracking No."
+  },
+  "track": {
+    "start": "Shiping started",
+    "tracknum": "Tracking Number",
+    "delivered": "Delivered",
+    "lupdata": "Last Update",
+    "trader": "The Trader",
+    "deTime": "Delivery Time",
+    "": ""
+  },
+  "home": {
+    "head": "Deliver What You Love, On Time",
+    "paragraph": "Deliver your products to any place in Egypt with a one stop, full-service next day delivery and logistics solution.",
+    "bosta": "Ship With Bost",
+    "partnerH": "Success Partners",
+    "partnerP": "Our partnerships’ success stories reflect our vision about delivering quality and going the extra",
+    "why": "Why Bosta is Your Ultimate Courier Partner ?",
+    "follow": "Track Order",
+    "manage": "Manage COD",
+    "commerce": "E-Commerce Shop",
+    "whyText": "Monitor & track your shipments from placing the order till delivery. Evaluate your shipment status and rest assured that your consignee will receive their delivery as planned.",
+    "whyShip": "Bosta Provides You With",
+    "cashH": "Cash Collection",
+    "cashP": "Real-time insights on your cash collections through Bosta cash collection service.",
+    "customerH": "Customer Returns",
+    "customerP": "From second thoughts to total satisfaction, Bosta handles customer returns.",
+    "exchangeH": "Exchange Shipments",
+    "exchangeP": "Exchange a shipment for another through our smart logistics system.",
+    "nextH": "Next Day Delivery",
+    "nextP": "Our promise is to deliver the next day we receive the pickups, depending on the drop-off city location. "
+  }
+}
